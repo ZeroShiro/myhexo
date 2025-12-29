@@ -1,0 +1,27 @@
+widgets:
+  # --- 左侧栏 ---
+  # 个人资料卡片
+  - type: profile
+    position: left
+    author: ZeroShiro
+    author_title: DevOps Engineer
+    location: Earth
+    # 请确保你的图片链接是有效的
+    avatar: https://avatars.githubusercontent.com/u/48169665?v=4 
+    social_links:
+      Github:
+        icon: fab fa-github
+        url: https://github.com/zeroshiro
+      RSS:
+        icon: fas fa-rss
+        url: /atom.xml
+
+  # 文章目录 (放左边，写长技术文必备)
+  - type: toc
+    position: left
+    index: true
+
+  # 分类 (对应图中的 CATEGORIES，列表样式)
+  - type: categories
+    position: left
+    layout: list
