@@ -1,5 +1,5 @@
 // source/js/custom-footer.js
-
+// 1
 function changeFooterContent() {
   // 1. 选中页脚的 P 标签
   var target = document.querySelector(".level > .level-start > p");
