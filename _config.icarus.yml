@@ -1,115 +1,69 @@
-# Icarus Theme Configuration - Minimalist Version
-version: 6.0.0
-
-# 风格变体：使用 flat (扁平化) 最符合极简需求
+version: 5.1.0
 variant: default
-
-# Logo 和图标
-
-#logo: /images/logo.svg  # 请确保 source/images/ 下有这个文件，没有就删掉这行
-logo:
-  text: ZeroShiro
-
+logo: /img/logo.png
 head:
-  favicon: /img/favicon.ico
-
-# 顶部导航栏
+    favicon: /img/favicon.ico
 navbar:
-  menu:
-    首页: /
-    归档: /archives
-    关于: /about
-  links:
-    GitHub:
-      icon: fab fa-github
-      url: https://github.com/zeroshiro # 换成你的 GitHub 地址
-
-# 搜索插件 (本地搜索，无广告，速度快)
+    menu:
+        首页: /
+        归档: /archives
+        关于: /about
+    links:
+        GitHub:
+            icon: fab fa-github
+            url: https://github.com/zeroshiro
 search:
-  type: insight
-
-# 文章页配置
+    type: insight
 article:
-  # 代码高亮主题
-  highlight:
-    update_time: true
-    theme: atom-one-dark
-    clipboard: true
-  # 显示阅读时长
-  readtime: true
-
-  license:
-    enable: true
-    license: 'CC BY-NC-SA 4.0'
-
-# 评论系统 (推荐使用 Giscus，如果你还没配好，可以先注释掉下面的 comment 块)
-# comment:
-#   type: giscus
-#   repo: zeroshiro/your-blog-repo # 你的公开仓库
-#   repo_id: xxxxx
-#   category: Announcements
-#   category_id: xxxxx
-#   mapping: pathname
-#   strict: 0
-#   reactions_enabled: 1
-#   emit_metadata: 0
-#   input_position: top
-#   theme: light
-#   lang: zh-CN
-
-# 侧边栏配置 (核心改动：只保留左栏，去掉右栏)
+    highlight:
+        update_time: true
+        theme: atom-one-dark
+        clipboard: true
+    readtime: true
+    license:
+        enable: true
+        license: CC BY-NC-SA 4.0
 sidebar:
-  left:
-    sticky: true # 允许左侧悬浮
-  right:
-    sticky: false # 禁用右侧
-
-# 挂件配置 (实现三栏布局)
+    left:
+        sticky: true
+    right:
+        sticky: false
 widgets:
-  # --- 左侧栏 ---
-  # 个人资料卡片
-  - type: profile
-    position: left
-    author: ZeroShiro
-    author_title: DevOps Engineer
-    location: Earth
-    # 请确保你的图片链接是有效的
-    avatar: https://avatars.githubusercontent.com/u/48169665?v=4 
-    social_links:
-      Github:
-        icon: fab fa-github
-        url: https://github.com/zeroshiro
-      RSS:
-        icon: fas fa-rss
-        url: /atom.xml
-
-  # 链接 (对应图中的 LINKS)
-  # - type: links
-  #   position: left
-  #   links:
-  #     Hexo: https://hexo.io
-  #     Bulma: https://bulma.io/
-
-  # # 文章目录 (放左边，写长技术文必备)
-  # - type: toc
-  #   position: left
-  #   index: true
-
-  # 分类 (对应图中的 CATEGORIES，列表样式)
-  - type: categories
-    position: left
-    layout: list
-
-  # --- 右侧栏 ---
-  # 最新文章 (对应图中的 RECENTS)
-  - type: recent_posts
-    position: right
-
-  # 归档 (对应图中的 ARCHIVES)
-  - type: archives
-    position: right
-
-  # 标签 (可选，图中未显示，但你的配置里有)
-  - type: tags
-    position: right
-
+    -
+        type: profile
+        position: left
+        author: ZeroShiro
+        author_title: DevOps Engineer
+        location: Earth
+        avatar: https://avatars.githubusercontent.com/u/48169665?v=4
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: https://github.com/zeroshiro
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /atom.xml
+            Email:
+                icon: fas fa-envelope
+                url: mailto:1311588796@qq.com
+    -
+        type: categories
+        position: left
+        layout: list
+    -
+        type: recent_posts
+        position: right
+    -
+        type: archives
+        position: right
+    -
+        type: tags
+        position: right
+footer:
+    links:
+        Download on GitHub:
+            icon: fab fa-github
+            url: https://github.com/ppoffice/hexo-theme-icarus
+        Email Me:
+            icon: fas fa-envelope  
+            url: mailto:1311588796@qq.com

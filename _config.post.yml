@@ -12,9 +12,12 @@ widgets:
       Github:
         icon: fab fa-github
         url: https://github.com/zeroshiro
-      RSS:
-        icon: fas fa-rss
-        url: /atom.xml
+      # RSS:
+      #   icon: fas fa-rss
+      #   url: /atom.xml
+      Email:
+        icon: fas fa-envelope
+        url: mailto:1311588796@qq.com
 
   # 文章目录 (放左边，写长技术文必备)
   - type: toc

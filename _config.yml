@@ -1,6 +1,6 @@
 # 网站基本信息
-title: ZeroShiro's Blog
-subtitle: DevOps & Vue
+title: ZeroShiro Blog
+subtitle: ''
 description: ''
 keywords:
 author: ZeroShiro
@@ -8,7 +8,7 @@ language: zh-CN  # 强制设为中文
 timezone: ''
 
 # URL设置 (部署到 Cloudflare 后，这里填你分配的域名，例如 https://xxx.pages.dev)
-url: http://blog.mysit.vip
+url: https://blog.mysit.vip
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -32,3 +32,4 @@ highlight:
 skip_render:
   - "node_modules/**"
   - "README.md"
+
