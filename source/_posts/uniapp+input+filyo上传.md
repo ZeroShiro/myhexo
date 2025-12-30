@@ -7,7 +7,7 @@ tags:
   - uni-app
   - JavaScript
 categories:
-  - 前端开发
+  - 小程序
 toc: true
 excerpt: 本文介绍了在 uni-app 项目中如何使用动态创建的 input 元素配合 flyio 库实现文件上传功能。
 ---
