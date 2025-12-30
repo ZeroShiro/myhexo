@@ -4,8 +4,8 @@ widgets:
   - type: profile
     position: left
     author: ZeroShiro
-    author_title: DevOps Engineer
-    location: Earth
+    author_title: 普通的开发者 / 热情的学习者
+    location: China
     # 请确保你的图片链接是有效的
     avatar: https://avatars.githubusercontent.com/u/48169665?v=4 
     social_links:
