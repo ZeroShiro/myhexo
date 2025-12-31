@@ -1,5 +1,5 @@
 ---
-title: loadMore 底部加载更多
+title: uniapp loadMore底部加载
 date: 2020-08-25
 updated: 2020-08-25
 tags:
@@ -8,7 +8,7 @@ tags:
 categories:
   - 前端组建
 toc: true
-excerpt: loadMore 底部加载更多
+excerpt: uniapp loadMore底部加载
 ---
 
 

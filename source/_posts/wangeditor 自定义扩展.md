@@ -24,7 +24,7 @@ export class AlertMenu extends BtnMenu {
       `<div class="w-e-menu" data-title="扩展">
                 <div>
                 <i class="w-e-icon-image "></i>
-</div>
+        </div>
             </div>`
     );
     super($elem, editor);

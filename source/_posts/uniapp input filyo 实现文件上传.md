@@ -1,5 +1,5 @@
 ---
-title: uni-app 中使用 input 和 flyio 实现文件上传
+title: uniapp input filyo 实现文件上传
 date: 2020-05-14 16:55
 updated: 2020-05-14 16:55
 tags:

@@ -1,7 +1,7 @@
 ---
-title: vue 导出xlsx 封装
-date: 2024-07-01 10:17	
-updated: 2024-07-01 10:17	
+title: Vue 导出xlsx 封装
+date: 2024-07-01 10:17
+updated: 2024-07-01 10:17
 tags:
   - Vue
   - JavaScript
@@ -9,14 +9,12 @@ tags:
 categories:
   - Vue
 toc: true
-excerpt: vue 导出xlsx 封装
+excerpt: Vue 导出xlsx 封装
 ---
 
 ```javascript
 import Axios from "axios";
 import Vue from "vue";
-
-
 
 let exprotUtils = {
   exportX2(url, fromData, fileName, method = "POST", HOST = "") {

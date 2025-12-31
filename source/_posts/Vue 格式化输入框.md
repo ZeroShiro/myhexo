@@ -1,5 +1,5 @@
 ---
-title: Vue格式化输入框
+title: Vue 格式化输入框
 date: 2021-08-16 14:24
 updated: 2021-08-16 14:24
 tags:
