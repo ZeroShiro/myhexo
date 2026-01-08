@@ -10,6 +10,7 @@ categories:
   - Linux
 toc: true
 excerpt: 记录 GL.iNet MT3000 刷入 iStoreOS 固件，并配合阿里云 VPS 搭建 FRP 内网穿透实现远程访问的完整流程。
+cover: https://cdn.jsdelivr.net/gh/ZeroShiro/picx-images-hosting@master/myBlog/mys-bash-istoreOS.3k8hjiyg7x.jpg
 ---
 
 ![MT3000](https://cdn.jsdelivr.net/gh/ZeroShiro/picx-images-hosting@master/myBlog/mys-mt3000.70atbl5nl8.jpg)

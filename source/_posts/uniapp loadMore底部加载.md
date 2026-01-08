@@ -5,6 +5,7 @@ updated: 2020-08-25
 tags:
   - 小程序
   - JavaScript
+  - uni-app
 categories:
   - 前端组建
 toc: true

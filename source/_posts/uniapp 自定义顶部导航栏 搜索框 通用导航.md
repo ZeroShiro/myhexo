@@ -10,6 +10,7 @@ categories:
   - 小程序
 toc: true
 excerpt: uniapp 自定义顶部导航栏 搜索框 通用导航
+cover: https://cdn.jsdelivr.net/gh/ZeroShiro/picx-images-hosting@master/myBlog/mys-uniapp-top.szfihuq0q.png
 ---
 
 
