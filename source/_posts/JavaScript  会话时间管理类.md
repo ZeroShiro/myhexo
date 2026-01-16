@@ -1,5 +1,5 @@
 ---
-title: JS 会话时间管理类
+title: JavaScript  会话时间管理类
 date: 2024-08-15 15:32
 updated: 2024-08-15 15:32
 tags:
@@ -7,7 +7,7 @@ tags:
 categories:
   - JavaScript
 toc: true
-excerpt: JS 会话时间管理类
+excerpt: JavaScript  会话时间管理类
 ---
 
 ```javascript

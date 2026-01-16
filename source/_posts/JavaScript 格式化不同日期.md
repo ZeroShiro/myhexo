@@ -1,5 +1,5 @@
 ---
-title: JS 格式化不同日期
+title: JavaScript 格式化不同日期
 date: 2024-08-15 15:32
 updated: 2024-08-15 15:32
 tags:
@@ -7,7 +7,7 @@ tags:
 categories:
   - JavaScript
 toc: true
-excerpt: JS 格式化不同日期
+excerpt: JavaScript 格式化不同日期
 ---
 
 ```javascript

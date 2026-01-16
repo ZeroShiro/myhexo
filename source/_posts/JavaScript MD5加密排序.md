@@ -1,5 +1,5 @@
 ---
-title: JS MD5加密排序
+title: JavaScript MD5加密排序
 date: 2020-07-15 15:32
 updated: 2020-07-15 15:32
 tags:
@@ -7,7 +7,7 @@ tags:
 categories:
   - JavaScript
 toc: true
-excerpt: JS MD5加密排序
+excerpt: JavaScript MD5加密排序
 ---
 
 ```javascript
