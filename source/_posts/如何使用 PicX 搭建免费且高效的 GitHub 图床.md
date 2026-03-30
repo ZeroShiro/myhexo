@@ -9,6 +9,7 @@ categories:
   - GitHub
 toc: true
 excerpt: 推荐一款基于 GitHub API 的高颜值、易上手的免费图床工具——PicX。
+cover: https://picx-docs.xpoet.cn/assets/img-7.Da15Znu4.png
 ---
 
 **PicX** 是一款基于 GitHub API 开发的开源图床解决方案。它不仅具备简洁清晰的用户界面，更极大程度地简化了 GitHub 图床的初始配置与日常使用流程。
