@@ -16,7 +16,7 @@ cover: https://picx-docs.xpoet.cn/assets/img-7.Da15Znu4.png
 
 ## 一、 系统登录与授权机制
 
-由于 PicX 的核心服务依赖于 GitHub API，用户需先完成账户绑定。系统提供两种身份验证方式，为确保最佳的使用体验，建议优先采用 GitHub OAuth 授权登录。
+由于 PicX 的核心服务依赖于 GitHub API，用户需先完成账户绑定。系统提供两种身份验证方式，建议优先采用 GitHub OAuth 授权登录。
 
 ### 1. GitHub OAuth 授权登录（推荐方案）
 首次使用时，需在 GitHub 账户中安装 `PicX GitHub APP`。点击登录界面的“安装 PicX GitHub APP”按钮，系统将引导您至 GitHub 进行应用部署。此步骤旨在授予 PicX 必要的仓库读写权限，仅需执行一次。
