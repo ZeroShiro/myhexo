@@ -1,5 +1,5 @@
 ---
-title: PicX 官方使用指南：构建高效免费的 GitHub 图床系统
+title: PicX 使用指南：构建高效免费的 GitHub 图床系统
 date: 2026-03-30 15:32
 updated: 2026-03-30 15:32
 tags:
