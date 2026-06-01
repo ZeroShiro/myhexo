@@ -10,7 +10,7 @@ categories:
   - 后端运维
 toc: true
 excerpt: 极简高颜值的轻量级服务器状态监控工具 Komari 部署教程。
-cover: https://cdn.jsdelivr.net/gh/ZeroShiro/picx-images-hosting@master/myBlog/mys-999.1sfopkp56h.jpg
+cover: https://cdn.jsdelivr.net/gh/ZeroShiro/picx-images-hosting@master/myBlog/mys-服务1.17613aizv7.jpg
 ---
 
 ## 1. 安装方式
@@ -111,3 +111,4 @@ Komari 拥有现代化的界面设计，并且完全开源。
 
 无论是个人博客、家庭实验室还是 VPS 集群监控，都能够快速完成部署并投入使用。同时较低的资源占用也不会对服务器上的其他业务产生明显影响。
 
+![mys-服务1](https://cdn.jsdelivr.net/gh/ZeroShiro/picx-images-hosting@master/myBlog/mys-服务1.17613aizv7.jpg)
