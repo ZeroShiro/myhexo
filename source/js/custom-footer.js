@@ -16,6 +16,27 @@ function changeFooterContent() {
   }
 }
 
+// 微信图标链接带 target="_blank"，javascript: 地址在新窗口里不会执行
+function bindWechatLink() {
+  document.querySelectorAll("i.fa-weixin").forEach(function (icon) {
+    var link = icon.closest("a");
+    if (!link || link.dataset.wechatBound) {
+      return;
+    }
+    link.dataset.wechatBound = "1";
+    link.removeAttribute("target");
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      window.alert("微信号：v123256");
+    });
+  });
+}
+
+function onPageReady() {
+  changeFooterContent();
+  bindWechatLink();
+}
+
 // 4. 监听事件 (兼容 PJAX)
-document.addEventListener("DOMContentLoaded", changeFooterContent);
-document.addEventListener("pjax:complete", changeFooterContent);
+document.addEventListener("DOMContentLoaded", onPageReady);
+document.addEventListener("pjax:complete", onPageReady);

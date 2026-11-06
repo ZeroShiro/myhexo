@@ -52,6 +52,9 @@ widgets:
             Email:
                 icon: fas fa-envelope
                 url: mailto:1311588796@qq.com
+            WeChat:
+                icon: fab fa-weixin
+                url: 'javascript:alert("微信号：v123256")'
     -
         type: categories
         position: left
